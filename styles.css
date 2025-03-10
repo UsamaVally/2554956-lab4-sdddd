@@ -1,1 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
 
+h1 {
+    text-align: center;
+}
+
+input, button {
+    padding: 10px;
+    font-size: 1rem;
+    margin: 10px;
+}
+
+button {
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+section {
+    margin-top: 20px;
+}
+
+#bordering-countries ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#bordering-countries li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#bordering-countries img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+#country-info p {
+    font-size: 1.1rem;
+}
